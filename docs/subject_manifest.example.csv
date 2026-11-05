@@ -1,0 +1,10 @@
+source_group,subject_id,split
+person_001_front,subject_001,train
+person_001_side,subject_001,train
+person_001_back,subject_001,train
+person_002_front,subject_002,valid
+person_002_side,subject_002,valid
+person_002_back,subject_002,valid
+person_003_front,subject_003,test
+person_003_side,subject_003,test
+person_003_back,subject_003,test

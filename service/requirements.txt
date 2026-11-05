@@ -1,0 +1,14 @@
+# VisionFit quality service — pinned dependencies (verified locally).
+# OpenCV 5 is required by the project direction; do not silently substitute OpenCV 4.
+opencv-python-headless==5.0.0.93
+numpy==2.5.4
+fastapi==0.143.0
+uvicorn==0.54.0
+python-multipart==0.0.32
+pytest==9.1.1
+httpx2==2.13.1
+anyio==4.12.1
+psycopg[binary]==3.3.6
+boto3==1.43.114
+PyJWT[crypto]==2.15.1
+python-dotenv==1.2.4

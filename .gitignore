@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+
+# Node
+node_modules/
+dist/
+*.log
+
+# Playwright
+test-results/
+playwright-report/
+
+# Local project notes and source archives
+*.md
+!README.md
+!**/README.md
+!docs/ARCHITECTURE.md
+!docs/TECHNICAL_REPORT.md
+!docs/EVALUATION.md
+!deploy/DEPLOY_CHECKLIST.md
+dataset-training/
+*.zip
+
+# MediaPipe pose model (fetched via an explicit step, see service/README.md)
+*.task
+
+# Local credentials and deployment secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
